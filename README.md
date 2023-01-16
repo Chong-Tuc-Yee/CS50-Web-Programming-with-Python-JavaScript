@@ -1,4 +1,4 @@
-# CS50-Web-Programming-with-Python-JavaScript
+## HarvardX CS50W: Web Programming with Python & JavaScript
 
 All webpages of the project are mobile-responsive.
 
