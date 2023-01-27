@@ -1,0 +1,26 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>Edit Page</h1>
+    <!--Form edits send to save_edit route upon clicking save changes button-->
+    <form action="{% url 'save_edit' %}" method="POST">
+        <!--CSRF token added for verification purpose when dealing with forms in Django-->
+        {% csrf_token %}
+        <!--Label field for attribute match id of other form element to bind together.-->
+        <!--Textarea id field needed to associate with label, name field reference to form data.-->
+        <label>Title: </label>
+        <input type="text" name="editpage_title" value="{{ title }}" placeholder="Enter A Title">
+        <br>
+        <label>Markdown Content: </label>
+        <br>
+        <!--Rows and columns attributes for textarea already set in styles.css file.-->
+        <textarea name="editpage_txt" placeholder="Enter Content">{{ content }}</textarea>
+        <br>
+        <input class="btn btn-primary" type="submit" value="Save Changes">
+    </form>
+
+{% endblock %}
