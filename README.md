@@ -6,15 +6,17 @@ Self Study on Harvard Computer Science Web Dev Course.
 See [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript).
 
 ### Course Content ###
-1. [Pset0 (HTML, CSS)](https://github.com/Chong-Tuc-Yee/HarvardX-CS50-Web-Programming-with-Python-JavaScript/tree/main/Pset0/search)
-2. [Pset1 (Git)]()
-3. [Pset2 (Python)]()
-4. [Pset3 (Django)]()
-5. [Pset4 (SQL, Models & Migrations)]()
-6. [Pset5 (JavaScript)]()
-7. [Pset6 (User Interfaces)]()
-8. [Pset7 (Testing, CI/CD)]()
-9. [Pset8 (Scalability & Security)]()
+1. Lecture 0 (HTML, CSS), Lecture 1 (Git), Lecture 2 (Python)
+    - Practice: [Pset0](https://github.com/Chong-Tuc-Yee/HarvardX-CS50-Web-Programming-with-Python-JavaScript/tree/main/Pset0/search)
+2. Lecture 3 (Django)
+    - Practice: [Pset1]()
+3. Lecture 4 (SQL, Models & Migrations)
+    - Practice: [Pset2]()
+4. Lecture 5 (JavaScript), Lecture 6 (User Interfaces)
+    - Practice: [Pset3]()
+5. Lecture 7 (Testing, CI/CD)
+    - Practice: [Pset4]()
+7. Lecture 8 (Scalability & Security)
 
 All webpages of the project are mobile-responsive.
 
