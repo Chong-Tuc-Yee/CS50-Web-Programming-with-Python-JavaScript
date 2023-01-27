@@ -1,0 +1,25 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Encyclopedia
+{% endblock %}
+
+{% block body %}
+    <h1>New Page</h1>
+    <form action="{% url 'new_page' %}" method="POST">
+        <!--CSRF token added for verification purpose when dealing with forms in Django-->
+        {% csrf_token %}
+        <!--Label field for attribute match id of other form element to bind together.-->
+        <!--Textarea id field needed to associate with label, name field reference to form data.-->
+        <label>Title: </label>
+        <input type="text" name="newpage_title" placeholder="Enter A Title" required>
+        <br>
+        <label>Markdown Content: </label>
+        <br>
+        <!--Rows and columns attributes for textarea already set in styles.css file.-->
+        <textarea name="newpage_txt" placeholder="Enter Content" required></textarea>
+        <br>
+        <input class="btn btn-primary" type="submit" value="Save New Page">
+    </form>
+
+{% endblock %}
