@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ title }}
+{% endblock %}
+
+<!--Apply safe filter to allow outputting of HTML string format-->
+{% block body %}
+    <p>{{ content | safe }}</p>
+    <br>
+    <!--Use form with hidden type input so we can get the titles from entry page and send it to edit page-->
+    <form action="{% url 'edit' %}" method="POST">
+        {% csrf_token %}
+        <input type="hidden" name="edit_title" value="{{ title }}">
+        <input class="btn btn-primary" type="submit" value="Edit">
+
+{% endblock %}
