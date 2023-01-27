@@ -1,0 +1,134 @@
+.topbar {
+    list-style-type: none;      /* Indicate list item have no index no. or symbol */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+.topitem {
+    margin: 8px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+
+.topbar a:link, .topbar a:visited, .topbar a:active {
+    color: black;
+    text-decoration: none;      /* Remove underline */
+}
+
+.topbar a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.centerdiv {
+    display: flex;          /* To manipulate div */
+    justify-content: center;
+    align-items: center;    /* Vertical center position */
+}
+
+.roundbox{
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    max-width: 584px;
+    margin-top: 20px;
+    /* flex: 1;    flex-grow:0, flex-shrink:1, flex-basis:auto */
+    /* padding: 5px 8px 0px 14px;  padding top, right, bottom and left */
+}
+
+.gsearch-div {
+    height: 70px;
+    padding: 18px;
+}
+
+.gsearch-btn {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.adv_title1 {
+    color: #d93025;
+    font-size: 20px;
+    font-family: arial,sans-serif;
+    margin: 25px 50px;
+}
+
+.adv_linesep {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.adv_subtitle{
+    font-size: 16px;
+    font-family: arial,sans-serif;
+    color: #333333;
+}
+
+.adv_field {
+    margin: 50px;
+}
+
+.adv_form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.field_left {
+    width: 200px;   /* Text field width */
+}
+
+.field_right {
+    width: 385px;   /* Input field width */
+}
+
+.adv_para {
+    font-size: 13px;
+    font-family: arial,sans-serif;
+    color: #222;
+    vertical-align: middle;
+}
+
+.adv_btndiv {
+    display: flex;
+    justify-content: flex-end;
+    width: 405px;
+    margin-top: 30px;
+}
+
+.adv_btn {
+    box-shadow: none;
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+
+.inputbox {
+    width: 50%;
+    margin: auto;               /* margin-top: -37px */
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;     /* Break long words into next line */
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+}
