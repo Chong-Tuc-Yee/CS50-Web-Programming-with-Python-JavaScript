@@ -1,5 +1,11 @@
 ## HarvardX CS50W: Web Programming with Python & JavaScript
 
+Self Study on Harvard Computer Science Web Dev Course.
+
+### Course's Link ###
+See [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript).
+
+### Course Content ###
 All webpages of the project are mobile-responsive.
 
 Installation
