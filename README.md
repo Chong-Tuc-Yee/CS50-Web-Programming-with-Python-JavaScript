@@ -6,7 +6,7 @@ Self Study on Harvard Computer Science Web Dev Course.
 See [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript).
 
 ### Course Content ###
-1. [Pset0 (HTML, CSS)]()
+1. [Pset0 (HTML, CSS)](https://github.com/Chong-Tuc-Yee/HarvardX-CS50-Web-Programming-with-Python-JavaScript/tree/main/Pset0/search)
 2. [Pset1 (Git)]()
 3. [Pset2 (Python)]()
 4. [Pset3 (Django)]()
