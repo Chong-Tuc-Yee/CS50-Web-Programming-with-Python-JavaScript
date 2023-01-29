@@ -25,6 +25,8 @@ When user types in query and click search, user should be taken to search result
         - The ***four*** options should be stacked vertically, and all of the text fields should be left aligned.
         - The ***Advanced Search*** button should be blue with white text (Similar to Google's own CSS). Clicking this link should take users directly to the first               Google search result for the query, bypassing the normal results page.
         
+Practice Question Source: [More Info](https://cs50.harvard.edu/web/2020/projects/0/search/)
+        
 ### Usage: ###
 To run program, user can execute following commands in codespace terminal window:
 1. `cd Pset0`
