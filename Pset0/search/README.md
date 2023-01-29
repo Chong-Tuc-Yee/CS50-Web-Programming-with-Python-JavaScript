@@ -29,7 +29,7 @@ When user types in query and click search, user should be taken to search result
 To run program, user can execute following commands in codespace terminal window:
 1. `cd Pset0`
 2. `cd search`
-3. `htttp-server`
+3. `http-server`
 
 ### Program Example: ###
 **Google Search Page**
