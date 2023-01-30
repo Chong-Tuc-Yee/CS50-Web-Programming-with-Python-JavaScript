@@ -9,7 +9,7 @@ Framework: **Django**
 Enables user to visit encyclopedia page, create a new entry, edit the entry, query for a specific encyclopedia entry through search box and enable user to search for a random encyclopedia entry.
 
 **Website Requirement:**
-- 
+
 Practice Question Source: [More Info](https://cs50.harvard.edu/web/2020/projects/1/wiki/)
 
 ### Usage: ###
