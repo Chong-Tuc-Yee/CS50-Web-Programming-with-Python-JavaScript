@@ -8,7 +8,7 @@ See [here](https://www.edx.org/course/cs50s-web-programming-with-python-and-java
 ### Course Content ###
 1. Lecture 0 (HTML, CSS), Lecture 1 (Git), Lecture 2 (Python)
     - Practice: [Pset0](https://github.com/Chong-Tuc-Yee/HarvardX-CS50-Web-Programming-with-Python-JavaScript/tree/main/Pset0/search)
-2. Lecture 3 (Django), Lecture 4 (SQL, Models & Migrations)
+2. Lecture 3 (Django)
     - Practice: [Pset1]()
 3. Lecture 4 (SQL, Models & Migrations)
     - Practice: [Pset2]()
