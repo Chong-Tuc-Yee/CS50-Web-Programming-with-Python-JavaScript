@@ -1,0 +1,23 @@
+textarea {
+    min-height: 400px;
+}
+
+.reademail {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;   /* Clip extra bg to fit into just the border box */
+    margin-bottom: 10px;
+    background-color: #d3d3d3;
+    background-clip: padding-box;   /* Limit bg color to size of padding box. (Default: border-box, Optional: content-box) */
+}
+
+.unreademail {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-color: white;
+    background-clip: padding-box;
+}
