@@ -2,7 +2,7 @@
 **Design an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.”**
 
 ### <ins>Specification</ins> ###
-Framework: **Django**
+Framework: **Django** <br>
 Language: **HTML, CSS, JavaScript**
 
 **Website Function:**
