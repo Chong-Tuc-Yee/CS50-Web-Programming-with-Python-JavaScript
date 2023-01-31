@@ -1,0 +1,13 @@
+.commenttitle {
+    font-size: 20px;
+}
+
+.commentbody {
+    color: dimgray;
+    font-size: 15px;
+}
+
+.pagelist {
+    display: flex;
+    justify-content: center;
+}
