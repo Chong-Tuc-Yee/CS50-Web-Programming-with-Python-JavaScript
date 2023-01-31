@@ -1,0 +1,99 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <!--Display alert to indicate if bid successfully updated-->
+    <div class="container">
+        {% if message %}
+            {% if update %}
+            <div class="alert alert-success" role="alert">
+                {{ message }}
+            </div>
+            {% else %}
+            <div class="alert alert-danger" role="alert">
+                {{ message }}
+            </div>
+            {% endif %}
+        {% endif %}
+    </div>
+
+    <!--Display alert to notify successful bidder. Display message only when item status not active and for final highest bidder-->
+    {%  if not item_listing.status_act and user == item_listing.price.bidder %}
+        <div class="alert alert-success" role="alert">
+            Congratulations! You won the auction!
+        </div>
+    {% endif %}
+
+    <h2>Listing: {{ item_listing.title }}</h2>
+    <!--For logged in user, provide access to add/remove items in watchlist-->
+    <!--For logged in user and also who creates the listing, provide access to close the auction listing-->
+    <div class="row mx-auto">
+        {% if user.is_authenticated and item_listing.status_act %}
+            {% if usr_create %}
+                <form action="{% url 'closeauction' id=item_listing.id %}" method="POST">
+                    {% csrf_token %}
+                    <button class="btn btn-danger btn-sm my-3 mr-3" type="submit">Close</button>
+                </form>
+            {% endif %}
+            {% if item_in_watchlist %}
+                <form action="{% url 'removewatchlist' id=item_listing.id %}" method="POST">
+                    {% csrf_token %}
+                    <button class="btn btn-primary btn-sm my-3" type="submit">Remove From Watchlist</button>
+                </form>
+            {% else %}
+                <form action="{% url 'addwatchlist' id=item_listing.id %}" method="POST">
+                    {% csrf_token %}
+                    <button class="btn btn-primary btn-sm my-3" type="submit">Add To Watchlist</button>
+                </form>
+            {% endif %}
+        {% endif %}
+    </div>
+    <img src="{{ item_listing.img_url }}" alt="{{ item_listing.title }}" height="350px">
+    <br><br>
+    <p>{{ item_listing.description }}</p>
+    <!--Alternative: Price gets updated so this works also. {{ item_listing.price }}-->
+    <p><strong>Price: RM {{ item_listing.price.bidprice }}</strong></p>
+    <br>
+    <h4>Details:</h4>
+    <ul>
+        <li>Listed by: {{ item_listing.name }}</li>
+        <li>Category: {{ item_listing.category }}</li>
+    </ul>
+    <p><br></p>
+
+    <!--Enable user to place bid-->
+    {% if user.is_authenticated %}
+    <form action="{% url 'addbid' id=item_listing.id %}" method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="bid"><strong>Add A Bid Price: </strong></label>
+            <input type="text" min="0" name="bid" class="form-control" placeholder="Type In Bid: Currency(RM)">
+        </div>
+        <button class="btn btn-primary btn-sm" type="submit">Enter Bid</button>
+    </form>
+    <p><br></p>
+    {% endif %}
+
+    <!--Comments section to display comments from other users-->
+    <h3><b>Comments:</b></h3>
+    <!--Enable logged in user to add in comment-->
+    {% if user.is_authenticated %}
+    <form action="{% url 'addcomment' id=item_listing.id %}" method="POST">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="comment">Add A Comment: </label>
+            <textarea name="comment" id="comment" class="form-control" rows="5" placeholder="Type In Comment"></textarea>
+        </div>
+        <button class="btn btn-primary btn-sm" type="submit">Post</button>
+    </form>
+    {% endif %}
+    <p><br></p>
+    <ul class="list-group">
+        {% for comment in item_comments %}
+            <li class="list-group-item border-dark rounded-sm">
+                {{ comment.message }}
+                <br><br>
+                <p>Posted by: <strong>{{ comment.commenter }}</strong> on {{ datetime }}</p>
+            </li>
+        {% endfor %}
+    </ul>
+{% endblock %}
