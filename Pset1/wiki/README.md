@@ -44,7 +44,7 @@ Since Django uses token to prevent CSRF attack, if below error message pops out 
 **Entry Page (Display contents of a particular encyclopedia entry)**
 ![image](https://user-images.githubusercontent.com/107826905/215512742-ac586d8d-c0c0-4bc5-b361-d9c212ee13e2.png)
 
-**Edit Page**
+**Edit Page (Edit Entry Content)**
 ![image](https://user-images.githubusercontent.com/107826905/215512975-400adece-4f85-4fb6-b11a-0e4658d4916c.png)
 
 
