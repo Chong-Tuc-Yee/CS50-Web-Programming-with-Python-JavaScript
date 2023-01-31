@@ -40,45 +40,45 @@ Since Django uses token to prevent CSRF attack, if below error message pops out 
 ### <ins>Program Example</ins> ###
 - **<ins>Main Page / Active Listings Page</ins>**: Display all active listing items. User can only view items since have not logged in account yet.
 
-![image](https://user-images.githubusercontent.com/107826905/215714428-4fd0b35b-fdf5-4627-b02f-7f4d02ea21f4.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215714428-4fd0b35b-fdf5-4627-b02f-7f4d02ea21f4.png)
 
 - **<ins>Login Page</ins>**: Login to user's account
 
-![image](https://user-images.githubusercontent.com/107826905/215714525-3212cf96-6f7b-4afd-95b9-3d6da6351491.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215714525-3212cf96-6f7b-4afd-95b9-3d6da6351491.png)
 
 - **<ins>Register Page</ins>**: Register new account
 
-![image](https://user-images.githubusercontent.com/107826905/215714639-3e3e7477-4d5a-4552-8ba3-e65719ded814.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215714639-3e3e7477-4d5a-4552-8ba3-e65719ded814.png)
 
 - **<ins>Main Page / Active Listings Page</ins>**: Display all active listing items. Logged in user can perform certain actions.
 
-![image](https://user-images.githubusercontent.com/107826905/215715392-5a6d22fd-89e2-4231-be62-c7efc71959a2.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215715392-5a6d22fd-89e2-4231-be62-c7efc71959a2.png)
 
 - **<ins>Category Page</ins>**: Display only items under chosen category to user.
 
-![image](https://user-images.githubusercontent.com/107826905/215715761-58ac1709-f36c-4143-9a4b-41f7a2eeb3cc.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215715761-58ac1709-f36c-4143-9a4b-41f7a2eeb3cc.png)
 
 - **<ins>Item Listing Page</ins>**: Display more info for particular item when user click on "More Details" for the item.
 
-![image](https://user-images.githubusercontent.com/107826905/215716047-152a1cbe-a099-4e1a-a0f0-ccf889d4930d.png)
-![image](https://user-images.githubusercontent.com/107826905/215716118-0299a847-68f1-4184-aed4-454d47fa8ef9.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215716047-152a1cbe-a099-4e1a-a0f0-ccf889d4930d.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215716118-0299a847-68f1-4184-aed4-454d47fa8ef9.png)
 
 - **<ins>Comment Function</ins>**: User can comment on the selected item under the item description. Comments will display for the respective items in a list.
 
-![image](https://user-images.githubusercontent.com/107826905/215716355-d65f1765-2db1-46eb-a0d8-99d5f24ed3d0.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215716355-d65f1765-2db1-46eb-a0d8-99d5f24ed3d0.png)
 
 - **<ins>Bid Function</ins>**: User can place bid for the item.
 
-![image](https://user-images.githubusercontent.com/107826905/215716450-b8c6e754-f57f-495a-8212-75a0376881b5.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215716450-b8c6e754-f57f-495a-8212-75a0376881b5.png)
 
 - **<ins>Bid Function</ins>**: Messsage will be displayed on top for successful bid placing and price will be updated to the latest bid price upon successful bid.
 
-![image](https://user-images.githubusercontent.com/107826905/215716499-aa49ecd6-0a6b-4d13-b4b7-75742e76414d.png)
-![image](https://user-images.githubusercontent.com/107826905/215716565-bc432796-e9a4-467b-baa0-abffb46a9487.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215716499-aa49ecd6-0a6b-4d13-b4b7-75742e76414d.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215716565-bc432796-e9a4-467b-baa0-abffb46a9487.png)
 
 - **<ins>Create New Listing Page</ins>**: Looged in user will be able to add in new item for listing.
 
-![image](https://user-images.githubusercontent.com/107826905/215717020-5d908c24-c331-4cd8-a95b-bfb1c067b355.png)
+  ![image](https://user-images.githubusercontent.com/107826905/215717020-5d908c24-c331-4cd8-a95b-bfb1c067b355.png)
 
 
 
