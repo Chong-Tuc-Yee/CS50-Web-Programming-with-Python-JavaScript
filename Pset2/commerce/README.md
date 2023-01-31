@@ -3,6 +3,7 @@
 
 ### <ins>Specification</ins> ###
 Framework: **Django**
+Language: **HTML, CSS, JavaScript**
 
 **Website Function:**
 
