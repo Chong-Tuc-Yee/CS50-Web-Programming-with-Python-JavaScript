@@ -5,8 +5,7 @@
 Framework: **Django** <br>
 Language: **HTML, CSS, JavaScript**
 
-**Website Function:**
-
+**Website Function:** <br>
 Enable user to get mails, send mails, update mails, archive and unarchive emails and reply emails using the application's API.
 
 Practice Question Source: [More Info](https://cs50.harvard.edu/web/2020/projects/3/mail/)
