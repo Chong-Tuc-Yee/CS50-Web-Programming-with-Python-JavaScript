@@ -37,7 +37,7 @@ Since Django uses token to prevent CSRF attack, if below error message pops out 
 ![image](https://user-images.githubusercontent.com/107826905/215715064-d7d9e3cf-ed81-4811-bce9-828c487b8fe5.png)
 
 ### <ins>Program Example</ins> ###
-- **<ins>Main Page / Active Listings Page</ins>**: Display all active listing items. User can only view items since not logged into account yet.
+- **<ins>Main Page / Active Listings Page</ins>**: Display all active listing items. User can only view items since have not logged in account yet.
 
 ![image](https://user-images.githubusercontent.com/107826905/215714428-4fd0b35b-fdf5-4627-b02f-7f4d02ea21f4.png)
 
