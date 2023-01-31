@@ -34,9 +34,35 @@ Since Django uses token to prevent CSRF attack, if below error message pops out 
 
 ![image](https://user-images.githubusercontent.com/107826905/215767037-d1cc5e35-e57e-449d-8cf3-edefc8fcac87.png)
 
-- **<ins>Register New Account Page</ins>**
+- **<ins>Register New Account</ins>**
 
 ![image](https://user-images.githubusercontent.com/107826905/215767148-9b1e9d98-007c-4b4c-b1f8-d7e2941a7ab4.png)
 
-- **<ins></ins>**
+- **<ins>Compose Email</ins>**
+
+![image](https://user-images.githubusercontent.com/107826905/215768355-00a211e4-b704-4e5c-b9e1-bb2fdac20d72.png)
+
+- **<ins>Sent Email</ins>**: Unread messages have white background, read messages have grey background
+
+![image](https://user-images.githubusercontent.com/107826905/215768683-63a88d78-4375-45f8-92ab-7fb0ed3610a7.png)
+
+- **<ins> Email Details</ins>**: Click into emails inside inbox or sent email will show email content details and contain buttons for user to reply and archive/unarchive the message.
+
+![image](https://user-images.githubusercontent.com/107826905/215769051-7c2b075c-9541-4333-b49f-9d700ae00923.png)
+
+
+- **<ins>Inbox Email</ins>**: Unread messages have white background, read messages have grey background
+
+![image](https://user-images.githubusercontent.com/107826905/215769718-2976c16d-96a6-43c4-801a-21af257913bf.png)
+
+
+- **<ins>Reply Email</ins>**
+
+![image](https://user-images.githubusercontent.com/107826905/215769917-57c096f4-e6b4-4ed8-932f-e8c808375876.png)
+
+
+- **<ins>Archive Email</ins>**: Clicking archive button will send email to archive mailbox and vice versa.
+
+![image](https://user-images.githubusercontent.com/107826905/215770101-636d61d6-5b72-4daf-93ea-8b4bce726478.png)
+
 
