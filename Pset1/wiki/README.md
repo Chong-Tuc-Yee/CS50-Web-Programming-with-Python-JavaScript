@@ -2,7 +2,7 @@
 **Design a Wikipedia-like online encyclopedia.**
 
 ### Specification: ###
-Framework: **Django**
+Framework: **Django** <br>
 Language: **Python, HTML, CSS, Markdown**
 
 **Website Function:**
