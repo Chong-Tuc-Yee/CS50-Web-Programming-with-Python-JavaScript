@@ -3,6 +3,7 @@
 
 ### Specification: ###
 Framework: **Django**
+Language: **Python, HTML, CSS, Markdown**
 
 **Website Function:**
 
